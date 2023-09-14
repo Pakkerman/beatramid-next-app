@@ -27,7 +27,7 @@ export default function Dot() {
 export function DotRow({ count }: { count: number }) {
   const array = new Array(count).fill(null)
   return (
-    <ul className="flex flex-nowrap  gap-3">
+    <ul className="flex flex-nowrap gap-3">
       {array.map((_, idx) => (
         <li key={idx}>
           <Dot />

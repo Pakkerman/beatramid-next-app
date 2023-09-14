@@ -1,7 +1,7 @@
 'use client'
 
 import React from 'react'
-import { useControlContext } from '@/src/contexts/ControlContext'
+import { useControlContext } from '@/contexts/ControlContext'
 
 export default function StartButton() {
   const { setBeatActive } = useControlContext()

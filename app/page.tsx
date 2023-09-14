@@ -1,4 +1,4 @@
-import Beatramid from '@/src/components/Beatramid'
+import Beatramid from '@/components/Beatramid'
 
 export default function Home() {
   return (

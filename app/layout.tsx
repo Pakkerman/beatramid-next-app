@@ -1,4 +1,4 @@
-import { ControlContextProvider } from '@/src/contexts/ControlContext'
+import { ControlContextProvider } from '@/contexts/ControlContext'
 import './globals.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'

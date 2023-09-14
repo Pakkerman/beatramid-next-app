@@ -1,5 +1,5 @@
 import React from 'react'
-import { useControlContext } from './contexts/ControlContext'
+import { useControlContext } from '../contexts/ControlContext'
 
 export default function VolumeControl() {
   const { volume, setVolume } = useControlContext()
