@@ -2,7 +2,7 @@
 
 import React, { useEffect } from 'react'
 
-import StartButton from '@/components/StartButton'
+import StartButton from './StartButton'
 import { useControlContext } from '@/contexts/ControlContext'
 import { DotRow } from './Dot'
 import BPMControl from './BPMControl'
